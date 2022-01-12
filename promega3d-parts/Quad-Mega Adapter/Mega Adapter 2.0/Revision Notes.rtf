@@ -1,0 +1,122 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 6.3.9600}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\f0\fs96\lang9 Revision Notes:\par
+
+\pard\sa200\sl276\slmult1\b\fs22 Mega Adapter 2.0.1:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 New adapter design. Conforms to cable harness M3 thru holes. Conforms to fan mount position. Secures to quad extruder in all 3 axes. ( 6 screws)\par
+{\pntext\f1\'B7\tab}Accomplishment: Cable harness attachment sucessfull. Quad extruder attachment successful. Igus bearin and x shaft installation sucessfull. Adequate frictional loading.\par
+{\pntext\f1\'B7\tab}Issues: Print issues with M3 pan head clearance. \par
+
+\pard\sa200\sl276\slmult1\b Mega Adapter 2.0.2:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Resolved M3 pan head overhang issue.\par
+{\pntext\f1\'B7\tab}Accomplishment: M3 pan head placement is accurate. \par
+{\pntext\f1\'B7\tab}Issues: No adaptation to the bed switch. \par
+
+\pard\sa200\sl276\slmult1\b Mega Adapter 2.0.3:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Added bed switch adaption. New Offset config values (signs are not confirmed, values are not confirmed): \par
+
+\pard\sa200\sl276\slmult1\tab\tab With Lever: \tab X-3.5 \tab Y37.45\tab\tab (Model Values)\par
+\tab\tab W/o lever: \tab X-3.5\tab  Y30\tab\tab (Model Values)\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Accomplishment: Bed switch toggle between disengage and engage is sucessfull. Minimal possibility of snagging when bed hits engaged bed switch.\par
+{\pntext\f1\'B7\tab}Issues: Bed Switch not well secured, in the z direction\par
+
+\pard\sa200\sl276\slmult1\b Mega Adapter 2.0.4:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 New bed switch positioning solution. Offset values will be given when functionality is verified.\par
+{\pntext\f1\'B7\tab}Accomplishment: Bed switch secure in the z direction. The disengage position is fully fixated.\par
+{\pntext\f1\'B7\tab}Issues: The engage position is partially fixated, wobble in the XY plane. The wires coming of the endstop are causing clearance problems. \par
+
+\pard\sa200\sl276\slmult1\par
+\b Mega Adapter 2.0.5:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Applied same concept of disengage position's fixation to the the engage position. Added wire clearance \b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: Wire clearance succesffull. Engaged position has better fixation, not fully acceptable yet. \b\par
+{\pntext\f1\'B7\tab}\b0 Issues: Modified heater block for quad conflicts with disengaged position of the bed switch. Need new position for disengaged bed switch.\b\par
+
+\pard\sa200\sl276\slmult1 Mega Adapter 2.0.6:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 New bed switch position configuration\b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: Bed switch configuration is successfull.\b\par
+{\pntext\f1\'B7\tab}\b0 Issues: X axis range is limited because the fans hit the idlers. No consideration of CoreXY belt clamping\b\par
+
+\pard\sa200\sl276\slmult1 Mega Adapter 2.0.7:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 New CoreXY clamping integration. Lowered quad position (relative to X shaft) to for belt clearance.\b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: Integration successful. \b\par
+{\pntext\f1\'B7\tab}\b0 Issues: Pan head crushes into print during clamping (needs washer consideration). Left over CoreXY belt needs routing. Plates rotate during fixation, needs to stay straight. Need larger print thickness to clamp CoreXY down harder. Need wire clearance for the back motors. Need thru hole for the cable harness. CRITICAL ISSUE: Flexing occurs where the belt clamping is done, the extension(from the base to the clamping position is too high). May have to reconsider reposition of quad for better rigidity. New revision may be pursued.\b\par
+
+\pard\sa200\sl276\slmult1 Mega Adapter 2.0.8:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Added support bars close to the application force, should reduce flexing by some degree. Switched to a snug fit belt fixation method. Hid the termation of the belt fixation. \b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: Flexion reduction successfull, now feasible fixation mechanism.\b\par
+{\pntext\f1\'B7\tab}\b0 Issues: Clearance issues with insertions of different parts. Needs thru hole for cable harness fixation. Needs more heater air gap. Current belt fixation method is not feasible.\b\par
+
+\pard\sa200\sl276\slmult1 Mega Adapter 2.0.9:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Switching to a crimp-belt fixation method with a secondary clamping mechanism from the motors, as the quad head is fixed into place. Have a 4.0mm heater air gap. All insertion clearances adjusted for. Added better form factor (merging region between different printed parts).\b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: CoreXY belt clamping partially successful. The grip is descent, needs a secondary reinforcement. Better form factor. \b\par
+{\pntext\f1\'B7\tab}\b0 Issues: Need secondary belt grip. \b\par
+
+\pard\sa200\sl276\slmult1 Mega Adapter 2.0.10:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Added a secondary belt grip.\b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: Belt grip successfull. \b\par
+{\pntext\f1\'B7\tab}\b0 Issues: Needs bed switch clearance increase.\b\par
+
+\pard\sa200\sl276\slmult1 Mega Adapter 2.0.11:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Changed belt insertion direction. Changed direction of belt grip. Increased bed switch clearance to 3.5 mm (prev. 3.4). Minor asesthetic changes. \b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: Bed switch clearance adequate. Asesthetic changes approved.\b\par
+{\pntext\f1\'B7\tab}\b0 Issues: Other bed switch clearance needs adjustment. Angle of belt mating is not completely functional\b\par
+
+\pard\sa200\sl276\slmult1 Mega Adapter 2.0.12:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 New orientation for belt mating and new insertion belt position. Increased bed switch clearance from 11 mm to 11.2 mm. \b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: New Belt orientation is preffered,compared to other orientation. Bed switch performance is adequate (minor issues).\b\par
+{\pntext\f1\'B7\tab}\b0 Issues: Belt grip is not enough (too much clearance). \b\par
+
+\pard\sa200\sl276\slmult1 Mega Adapter 2.0.13:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Decreased belt clearance from 1.2 to .95 mm (reference to smallest belt thickness in belt profile. Decreased m3 locknut clearance to 5.55 (prev. 5.6). Removed angled clearance and now a locknut insertion clearance with a screw length clearance (no bottoming out). \b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: None. \b\par
+{\pntext\f1\'B7\tab}\b0 Issues: Belt mating starts slipping at high loads. Will play it safe and decrease mating clearance. M3 locknut clearances are not adequate. M3 tap holes are not helping assembly. M3 pan head clearance needs to be increased. Belt clamp through the quad head needs more clamping. Motor wire clearance needs to be addressed. Bed switch clearance needs improvement. One of the asesthetic fillets is hard to print. \b\par
+
+\pard\sa200\sl276\slmult1 Mega Adapter 2.0.14:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Changed all M3 tap holes to thru holes (3.8 mm). Increased M3 pan head clearance to 6.5 mm. Decreased belt insertion clearance from 1.1 mm to 0.9 mm (quad should grip the belt tighter). Reduced belt tooth mating clearance from 0.1 mm (prev) to 0.05mm. Determined that there is no need for wire clearance accomodation. Reduced m3 lockunut insertion clearance to 5.45 mm (width & length) x 4.2 mm (height). Increased bed switch height clearance to 11.4 mm (prev 11.1\b ). \b0 Changed asesthetic fillet to a 45 chamfer with a fillet transitioning toward the top.\b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: Pending.\b\par
+{\pntext\f1\'B7\tab}\b0 Issues: Cable harness position is too low. \b\par
+
+\pard\sa200\sl276\slmult1 Mega Adapter 2.0.15:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Shifted the cable harness location higher. \b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: Bed switch functionality verified. Belt mating is quite good. M3 locknut clearance better. Quad belt grip better. \b\par
+{\pntext\f1\'B7\tab}\b0 Issues: Hitting limit switch is a problem. (both in x Y position). Address minor prnt issue with M3 lock nut casing. \b\par
+
+\pard\sa200\sl276\slmult1 Mega Adapter 2.0.16:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Added heater cartidge wire clearance. Add extension to hit limit switch properly. Increase print base length by 3 mm. \b\par
+{\pntext\f1\'B7\tab}\b0 Accomplishment: Pending.\b\par
+{\pntext\f1\'B7\tab}\b0 Issues: Pending.\b\par
+
+\pard\sa200\sl276\slmult1\par
+\par
+\par
+
+\pard\sa200\sl240\slmult1\b0\par
+
+\pard\sa200\sl276\slmult1\b\par
+\par
+
+\pard\sa200\sl240\slmult1\b0\par
+
+\pard\sa200\sl276\slmult1\b\par
+\b0\par
+\par
+\par
+}
+ 
